@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+.container{
+    width: 400px;
+    margin:auto ;
+    background-color: white;
+    height: 300px;
+    margin-top: 200px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px 4px;
+}
+
+h1{
+    margin-top: 10px;
+    margin-left: 80px;
+    color: blue;
+}
+
+#otp_showcase{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#otp_btn{
+    background-color: aqua;
+    margin-left: 150px;
+    margin-top: 40px;
+    padding:10px;
+    color:blue;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
